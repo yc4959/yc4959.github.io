@@ -2,7 +2,6 @@
 title: "Home"
 output: html_document
 ---
-# Yimeng Cao
 
 I am currently pursuing an M.S. in Biostatistics at Columbia University, with a focus on public health data science.
 
