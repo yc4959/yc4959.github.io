@@ -1,0 +1,20 @@
+
+name: "Yimeng Cao"
+output_dir: "."
+navbar:
+  title: "Yimeng Cao"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/yc4959
+    - icon: fa-envelope fa-lg
+      href: mailto:yc4959@cumc.columbia.edu
+    - text: "LinkedIn"
+      href: https://www.linkedin.com/in/yimeng-cao/
+output:
+  html_document:
+    theme: cerulean

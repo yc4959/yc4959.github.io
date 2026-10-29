@@ -1,0 +1,89 @@
+---
+title: "Resume"
+output: html_document
+---
+
+---
+title: "Resume"
+output: html_document
+---
+
+# Yimeng Cao
+
+**New York, NY**  
+**Email:** [yc4959@cumc.columbia.edu](mailto:yc4959@cumc.columbia.edu)  
+**GitHub:** [github.com/yc4959](https://github.com/yc4959)
+
+---
+
+## Education
+
+### Columbia University
+**Master of Science in Biostatistics**  
+*September 2026 – May 2028*
+
+- Columbia Public Health Scholarship Award
+
+### Pace University — Lubin School of Business
+**Bachelor of Business Administration in Business Analytics, Summa Cum Laude**  
+*September 2022 – May 2026*
+
+- GPA: 3.97/4.0
+- Business Analytics Department Award (Ranked #1 in the program)
+- Relevant coursework: Financial Management, Financial Accounting, Statistics, Machine Learning, Predictive Analytics
+
+---
+
+## Skills
+
+**Programming & Tools:** Python (Pandas, NumPy, scikit-learn), SQL, R, Stata, Git, Excel (PivotTables, Solver), Tableau
+
+**Data Analytics & Modeling:** Data Cleaning & Quality Checks, Feature Engineering, Regression, Tree-Based Models, Time Series Forecasting, Monte Carlo Simulation, Linear Programming
+
+---
+
+## Work Experience
+
+### Pace University — Part-time Paid Research Assistant
+*June 2024 – May 2026 | New York, NY*
+
+- Analyzed the association between meditation practice and verbal fluency using 22 years of Health and Retirement Study (HRS) data from a national cohort of over 47,000 participants.
+- Preprocessed longitudinal data in R and Stata, applying GLLAMM and augmented inverse probability weighting (AIPW) to estimate adjusted associations.
+- Found that regular meditation was associated with 4.42-point (0.5 SD) higher verbal fluency among participants without baseline depressive symptoms (p = 0.015), with no significant association in the depressive-symptom subgroup.
+- Contributed to statistical analysis and manuscript preparation as a co-author.
+- Presented a research poster at the 2026 NYS Public Health Partnership Conference Student Poster Session.
+
+---
+
+## Academic Projects
+
+### Housing Rent Survey Data Analysis
+*R, XGBoost | January 2026 – May 2026*
+
+- Cleaned approximately 60,000 rental listings across 2,549 cities and more than 3,000 city-state markets.
+- Engineered over 30 structural, geographic, amenity, text-derived, and interaction features.
+- Compared linear regression, logistic regression, random forest, and XGBoost models using cross-validation.
+- Ranked **1st in the class Kaggle competition**, achieving approximately 50% lower mean squared error than the runner-up.
+
+### Breast Cancer Predictive Analytics
+*Python, Machine Learning | January 2026 – May 2026*
+
+- Developed a machine learning pipeline for classification of malignant and benign breast tumors using 30 imaging-derived predictors.
+- Performed data preprocessing, missing-value checks, outlier detection, and feature distribution analysis.
+- Compared logistic regression, SVM, random forest with AdaBoost, and neural networks using accuracy, precision, recall, F1, and ROC-AUC.
+- Achieved a highest ROC-AUC of **0.9978** using random forest with AdaBoost.
+
+### Pharmaceutical Sales Forecasting & Decision Analysis
+*Excel | September 2025 – December 2025*
+
+- Applied forecasting and decision analysis to pharmaceutical sales and operations scenarios.
+- Compared moving averages and exponential smoothing using mean squared error.
+- Performed Monte Carlo simulations to evaluate uncertainty in demand, costs, and profitability.
+- Used Excel Solver for linear programming and resource allocation.
+
+### U.S. Food Import Analytics
+*SQL, Tableau | September 2025 – December 2025*
+
+- Analyzed U.S. food import data from 1999 to 2023 using SQL joins and window functions.
+- Investigated supplier countries, product categories, and import trends.
+- Built interactive Tableau dashboards and geographic visualizations to examine sourcing concentration and category-level trends.
