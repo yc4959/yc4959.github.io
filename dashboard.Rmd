@@ -54,4 +54,3 @@ Column
 
 ### Minimum vs. Maximum Temperature
 
-We will add a scatterplot here.
