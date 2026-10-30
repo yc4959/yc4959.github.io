@@ -1,0 +1,57 @@
+---
+title: "New York Weather Dashboard"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+data("ny_noaa")
+
+weather_data =
+  ny_noaa |>
+  mutate(
+    year = lubridate::year(date),
+    month = lubridate::month(date, label = TRUE),
+    tmax = as.numeric(tmax) / 10,
+    tmin = as.numeric(tmin) / 10,
+    prcp = prcp / 10
+  ) |>
+  filter(year >= 2000, year <= 2010) |>
+  drop_na(tmax, tmin)
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Temperature Trends
+
+```{r}
+weather_data |>
+  mutate(month_date = lubridate::floor_date(date, unit = "month")) |>
+  group_by(month_date) |>
+  summarize(mean_tmax = mean(tmax)) |>
+  plot_ly(x = ~month_date, y = ~mean_tmax, type = "scatter", mode = "lines") |>
+  layout(
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Mean maximum temperature (°C)"))
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Temperature Distribution
+
+
+
+### Minimum vs. Maximum Temperature
+
+We will add a scatterplot here.
