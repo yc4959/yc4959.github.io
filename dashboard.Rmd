@@ -29,7 +29,7 @@ weather_data =
   drop_na(tmax, tmin)
 ```
 
-Column
+Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Temperature Trends
@@ -45,12 +45,35 @@ weather_data |>
     yaxis = list(title = "Mean maximum temperature (°C)"))
 ```
 
-Column
+Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### Temperature Distribution
 
+```{r}
+set.seed(1)
 
+weather_data |>
+  sample_n(5000) |>
+  plot_ly(x = ~month, y = ~tmax, color = ~month, type = "box", colors = "viridis") |>
+  layout(
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Maximum temperature (°C)"),
+    showlegend = FALSE)
+```
 
 ### Minimum vs. Maximum Temperature
 
+```{r}
+set.seed(1)
+
+weather_data |>
+  sample_n(5000) |>
+  mutate(text_label = str_c("Date: ", date, "\nMin: ", tmin, "°C\nMax: ", tmax, "°C")) |>
+  plot_ly(
+    x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
+    color = ~month, colors = "viridis", text = ~text_label, alpha = 0.5) |>
+  layout(
+    xaxis = list(title = "Minimum temperature (°C)"),
+    yaxis = list(title = "Maximum temperature (°C)"))
+```
