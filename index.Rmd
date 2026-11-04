@@ -2,17 +2,18 @@
 title: "Home"
 ---
 
-I am currently pursuing an M.S. in Biostatistics at Columbia University, with a focus on public health data science.
+## Yimeng Cao
 
-My background includes data science, applied mathematics, and healthcare analytics. I have worked on real-world evidence, predictive modeling, and data-driven decision-making in the pharmaceutical and healthcare industries.
+I am currently pursuing an M.S. in Biostatistics at Columbia University. My background is in data science, applied mathematics, and healthcare analytics. I am particularly interested in applying statistical methods to real-world data.
+
+Previously, I worked on a research project at Pace University using the Health and Retirement Study (HRS) to examine the association between meditation and verbal fluency among older adults. I also worked with a postdoctoral researcher at UCLA Anderson on a project using General Social Survey (GSS) data to study racial disparities in workplace exploitation. Both projects involved statistical modeling and data analysis using R and Python.
 
 ## Research and Professional Interests
 
 - Biostatistics and Epidemiology
-- Healthcare Data Science
-- Real-World Evidence
+- Healthcare Data Science and Real-World Evidence
 - Machine Learning and Predictive Modeling
+- Business Analytics and Decision Science
+- Commercial Analytics and Business Strategy
+- Financial Analytics and Forecasting
 
-## About This Website
-
-This website provides an overview of my academic background, professional experience, and interactive data visualization projects.
